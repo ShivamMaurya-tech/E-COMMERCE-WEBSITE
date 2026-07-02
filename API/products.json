@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name":"Laptop",
+        "category":"Computers",
+        "brand":"ExampleBrand",
+        "price":999.99,
+        "stock":50,
+        "description":"Powerful laptop with a quad-core i5 processor,8GB RAM,256GB SSD, and a 14-inch FHD Display.",
+        "image":"public/ChatGPT Image Jun 28, 2026, 02_05_07 PM laptop.png"
+
+    },
+
+    {
+        "id":2,
+        "name":"Smartphone",
+        "category":"Mobiles",
+        "brand":"Samsung",
+        "price":11999.99,
+        "stock":50,
+        "description":"A smartphone with high quality interface and high quality of camera and videos",
+        "image":"public/ChatGPT Image Jun 28, 2026, 02_05_07 PM phone.png"
+
+    },
+
+    {
+        "id":3,
+        "name":"Bag",
+        "category":"Leather",
+        "brand":"American tourister",
+        "price":999.99,
+        "stock":50,
+        "description":"A Bag with high innovative idea and following trend for gen-z",
+        "image":"public/ChatGPT Image Jun 28, 2026, 01_54_51 PMbag.png"
+
+    },
+
+    {
+        "id":4,
+        "name":"Watches",
+        "category":"Wearable",
+        "brand":"Sonata",
+        "price":999.99,
+        "stock":100,
+        "description":"Smartwatches with a 1.3-inch high quality AMOLED display and userfriendly",
+        "image":"public/ChatGPT Image Jun 28, 2026, 02_05_07 PM watches.png"
+    },
+
+    {
+        "id":5,
+        "name":"Fan",
+        "category":"Ceiling-fan",
+        "brand":"Philips",
+        "price":999.99,
+        "stock":50,
+         "description":"Philips fan is one of the popular fan in the world as if now.",
+         "image":"public/ChatGPT Image Jun 28, 2026, 01_54_51 PMfan.png"
+
+    },
+
+    {
+        "id":6,
+        "name":"Television",
+        "category":"Video",
+        "brand":"Samsung",
+        "price":999.99,
+        "stock":20,
+        "description":"Smartwatch with a 1.3-inch AMOLED Display,water resistant design ,fitness features,and a stylish silver color.",
+        "image":"public/ChatGPT Image Jun 28, 2026, 01_54_51 PM television.png"
+
+    }
+
+
+]
