@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./addtocart.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <!-- Start of navbar -->
+  <header class="section-navbar">
+<section class="top_text">
+  <div class="head container">
+    <div class="head_txt">
+    <p>free shipping 30 day return or refund guarantee</p>
+  </div>
+  
+  <div class="sign-in-up">
+<a href="">Sign-in</a>
+<a href="">Sign-up</a>
+</div>
+
+
+
+
+
+</div>
+
+</section>
+<div class="container">
+
+  <div class="navbar-brand">
+    <a href="index.html">
+      <img src="" alt="logo Shivam Maurya store" class="logo"
+      width="80%" height="auto">
+    </a>
+  </div>
+<nav class="navbar">
+  <ul>
+    <li class="nav-item">
+      <a href="/" class="nav-link">Home</a>
+      
+
+  </li>
+    <li class="nav-item">
+      <a href="about.html" class="nav-link">About</a>
+
+
+  </li>
+    <li class="nav-item">
+      <a href="product.html" class="nav-link">Products</a>
+
+
+  </li>
+    <li class="nav-item">
+      <a href="contact.html" class="nav-link">Contact </a>
+
+
+  </li>
+    <li class="nav-item">
+      <a href="addtocart.html" class="nav-link" id="cartvalue"> <i class="fa-solid fa-cart-shopping"></i> 0 </a>
+
+
+  </li>
+
+
+
+
+
+</ul>
+
+
+
+</div>
+
+
+</div>
+  </header>
+  <!-- end of navbar( header )part -->
+
+<section class="addtocartelement">
+    <div class="container">
+        <section>
+            <div class="productcartelement"></div>
+        </section>
+
+
+        <section class="productcarttotalelem">
+            <div class="productcarttotalelement">
+                <p>Selected Offer Summary</p>
+                <div class="productordertotal">
+                    <div><p>
+                        Subtotal:
+                    </p>
+                <p class="productsubtotal">0</p>
+                </div>
+                <div>
+                <p>Tax:</p>
+                <p class="producttax">₹50</p>
+            </div>
+            <hr>
+            <div>
+                <p>Final Total:</p>
+                <p class="productfinaltotal">0</p>
+            </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </div>
+</section>
+
+
+<!-- Template for a Product -->
+
+
+<!-- Start product template section -->
+<template id="productcarttemplate">
+  <div class="cards" id="cardvalue">
+    <article class="information [card]">
+      <span class="category"></span>
+      <div class="imgcontainer">
+      <img class="productimage"   src="" alt="">
+    </div>
+    <h2 class="Productname"></h2>
+    <div class="productRating">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <p class="productdescription"></p>
+    <div class="productpriceElement">
+<p class="productprice"></p>
+<p class="productactualprice"></p>
+
+
+    </div>
+
+    <div class="productstockelement">
+      <p class="productproperty">total Stocks Available</p>
+      <p class="productstock"></p>
+    </div>
+
+
+
+
+    <div class="productquantityelement">
+      <p class="productproperty">Quantity Pieces</p>
+      <div class="stockelement">
+        <button class="cartincrement">+</button>
+        <p class="productQuantity">1</p>
+        <button class="cartdecrement">-</button>
+      </div>
+    </div>
+
+
+    <button class="add-to-cart-button remove-to-cart-button">
+     <i class="fa-solid fa-cart-shopping"></i>Remove
+    </button>
+
+
+
+
+
+
+
+    </article>
+  </div>
+</template>
+
+
+
+
+
+<!-- End of product templates section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<!-- Start footer Section -->
+
+<footer class="section-footer">
+  <div class="footer-container container">
+    <div class="content_1">
+      <img src="public/ChatGPT Image Jun 26, 2026, 01_57_25 PM.png" alt="logo">
+      <p>Welcome to the Shivam Maurya store.Your ultimate destination for cutting-edge gadgets!</p>
+      <img src="public/ChatGPT Image Jun 26, 2026, 02_46_09 PM.png" alt="cards">
+    </div>
+
+    <div class="content_2">
+      <h4>Shopping</h4>
+      <a href="#">Computer Store</a>
+      <a href="#">Laptop Store</a>
+      <a href="#">Accessories</a>
+      <a href="#">Sales & Discount</a>
+    </div>
+
+
+
+    <div class="content_3">
+      <h4>Experience</h4>
+      <a href="./contact.html">Cantact Us</a>
+      <a href="" target="_blank" >Payment Method</a>
+      <a href="" target="_blank">Delivery</a>
+      <a href="" target="_blank">Return and Exchange</a>
+    </div>
+
+
+
+    <div class="content_4">
+      <h4>Newsletter</h4>
+      <p>Be the first to know about new<br/> Arrivals,sales & promos!</p>
+      <div class="f-mail">
+        <input type="email"  placeholder="Your Email"/>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <hr>
+    </div>
+  </div>
+<div class="f-design">
+  <div class="f-design-txt">
+    <p>Design and Code by <i class="fa-solid fa-heart"></i> Shivam Maurya</p>
+  </div>
+</div>
+
+
+
+</footer>
+
+<!-- End of the Footer section -->
+<script src="showaddtocartcards.js" type="module"></script>
+</body>
+</html>
